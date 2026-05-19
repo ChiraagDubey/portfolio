@@ -7,7 +7,7 @@ export const siteConfig: SiteConfig = {
   badge: "Open to work / Building AI-first products",
   headline: "I build products that turn rough ideas into polished digital experiences.",
   subtext:
-    "I’m Chiraag Dubey, a product-minded builder from India creating AI-powered tools, full-stack systems, and web products that solve real user friction. I like taking messy ideas, giving them structure, and turning them into useful products — including Level 0, built for early builders who want to ship and show their work better.",
+    "I’m Chiraag Dubey, a builder from India who enjoys turning messy ideas into useful digital products. I work on AI tools, full-stack apps, and simple web experiences that solve real problems. Right now, I’m building Level 0, a portfolio builder for early builders who want to put their work online without getting stuck on design or setup.",
   email: "chiraagdubey72004@gmail.com",
   resumeHref: "https://drive.google.com/file/d/1GIYtQmUzf_60vzTrwSgagsSR3JoRvtzb/view?usp=drive_link",
   profileImageSrc: "/images/profile/chiraag-hero.jpg.png",

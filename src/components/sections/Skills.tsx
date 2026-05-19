@@ -11,7 +11,7 @@ type SkillsProps = {
 
 export function Skills({ groups }: SkillsProps) {
   return (
-    <section id="skills" className="py-20 sm:py-24">
+    <section id="skills" className="py-16 sm:py-20">
       <Container>
         <SectionReveal>
           <SectionHeading

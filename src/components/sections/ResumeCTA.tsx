@@ -10,17 +10,17 @@ type ResumeCTAProps = {
 
 export function ResumeCTA({ resumeHref, linkedInHref }: ResumeCTAProps) {
   return (
-    <section className="py-20 sm:py-24">
+    <section className="py-16 sm:py-20">
       <Container>
         <SectionReveal>
           <GlowCard className="rounded-[2rem] border-cyan/18 px-6 py-10 sm:px-8 sm:py-12">
             <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
               <div className="max-w-2xl">
                 <p className="text-xs font-semibold uppercase tracking-[0.3em] text-cyan/78">Resume CTA</p>
-                <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+                <h2 className="mt-4 text-2xl font-semibold tracking-tight text-white sm:text-3xl">
                   Looking for someone who thinks in products and builds with execution discipline.
                 </h2>
-                <p className="mt-4 text-base leading-7 text-white/70">
+                <p className="mt-4 text-sm leading-6 text-white/70">
                   I’m actively building AI-first tools, portfolio systems, and full-stack products, and I’m open to internships where I can contribute across product thinking, implementation, experimentation, and iteration.
                   <br />
                   <br />
