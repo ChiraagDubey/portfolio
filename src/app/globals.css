@@ -17,6 +17,19 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 14px; /* default slight reduction for mobile */
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 12px; /* 75% scale for tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 12px; /* 75% scale for desktop */
+  }
 }
 
 body {
