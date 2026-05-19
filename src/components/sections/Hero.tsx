@@ -24,7 +24,7 @@ export function Hero({ siteConfig }: HeroProps) {
   const secondarySocialLinks = siteConfig.socialLinks.filter((link) => link.label !== "LinkedIn");
 
   return (
-    <section id="home" className="relative overflow-hidden py-20 sm:py-24 lg:py-28">
+    <section id="home" className="relative overflow-hidden py-16 sm:py-20 lg:py-20">
       <Container>
         <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-14">
           <motion.div
@@ -41,11 +41,11 @@ export function Hero({ siteConfig }: HeroProps) {
             </motion.p>
             <motion.h1
               variants={itemVariants}
-              className="mt-6 text-5xl font-semibold tracking-[-0.04em] text-white sm:text-6xl lg:text-7xl"
+              className="mt-6 text-4xl font-semibold tracking-[-0.04em] text-white sm:text-5xl lg:text-6xl"
             >
               {siteConfig.headline}
             </motion.h1>
-            <motion.p variants={itemVariants} className="mt-6 max-w-xl text-lg leading-8 text-white/70">
+            <motion.p variants={itemVariants} className="mt-6 max-w-md text-base leading-7 text-white/70">
               {siteConfig.subtext}
             </motion.p>
             <motion.div variants={itemVariants} className="mt-8 flex flex-wrap gap-3">
