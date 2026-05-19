@@ -12,7 +12,7 @@ export function Experience({ items }: ExperienceProps) {
   const entry = items[0];
 
   return (
-    <section id="experience" className="py-20 sm:py-24">
+    <section id="experience" className="py-16 sm:py-20">
       <Container>
         <SectionReveal>
           <SectionHeading
@@ -27,12 +27,12 @@ export function Experience({ items }: ExperienceProps) {
               <div className="flex flex-col gap-3 border-b border-white/8 pb-6 sm:flex-row sm:items-end sm:justify-between">
                 <div>
                   <p className="text-sm uppercase tracking-[0.25em] text-cyan/70">{entry.company}</p>
-                  <h3 className="mt-3 text-2xl font-semibold text-white">{entry.role}</h3>
+                  <h3 className="mt-3 text-xl font-semibold text-white">{entry.role}</h3>
                   <p className="mt-2 text-sm text-white/60">
                     {entry.location} / {entry.period}
                   </p>
                 </div>
-                <p className="max-w-xl text-sm leading-7 text-white/70">{entry.description}</p>
+                <p className="max-w-md text-sm leading-7 text-white/70">{entry.description}</p>
               </div>
               <ul className="mt-6 grid gap-4 sm:grid-cols-2">
                 {entry.bullets.map((bullet) => (

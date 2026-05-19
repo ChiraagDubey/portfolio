@@ -10,7 +10,7 @@ type LabProps = {
 
 export function Lab({ items }: LabProps) {
   return (
-    <section id="lab" className="py-20 sm:py-24">
+    <section id="lab" className="py-16 sm:py-20">
       <Container>
         <SectionReveal>
           <SectionHeading

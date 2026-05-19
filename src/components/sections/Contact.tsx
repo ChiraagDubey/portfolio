@@ -12,7 +12,7 @@ type ContactProps = {
 
 export function Contact({ email, socialLinks }: ContactProps) {
   return (
-    <section id="contact" className="py-20 sm:py-24">
+    <section id="contact" className="py-16 sm:py-20">
       <Container>
         <SectionReveal>
           <SectionHeading

@@ -29,7 +29,7 @@ const focusAreas = [
 
 export function About() {
   return (
-    <section id="about" className="py-20 sm:py-24">
+    <section id="about" className="py-16 sm:py-20">
       <Container>
         <SectionReveal>
           <SectionHeading
@@ -50,7 +50,7 @@ export function About() {
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.28em] text-cyan/78">Profile</p>
-                  <h3 className="mt-4 max-w-xl text-2xl font-semibold tracking-tight text-white sm:text-3xl">
+                  <h3 className="mt-4 max-w-md text-xl font-semibold tracking-tight text-white sm:text-2xl">
                     I build products that reduce friction and make decisions easier.
                   </h3>
                 </div>
@@ -61,7 +61,7 @@ export function About() {
                   </span>
                 </div>
               </div>
-              <p className="mt-6 max-w-2xl text-base leading-8 text-white/70">
+              <p className="mt-6 max-w-2xl text-sm leading-7 text-white/70">
                 I’m drawn to tools that remove busywork, simplify complex tasks, and feel polished without being overdesigned. I like working on products where AI, design, and engineering come together to create something practical, fast, and genuinely useful.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
@@ -80,9 +80,9 @@ export function About() {
                     <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-white/10 bg-white/[0.04] text-xs font-semibold text-white/70">
                       0{index + 1}
                     </span>
-                    <h3 className="text-base font-semibold text-white">{area.title}</h3>
+                    <h3 className="text-sm font-semibold text-white">{area.title}</h3>
                   </div>
-                  <p className="mt-4 text-sm leading-7 text-white/70">{area.description}</p>
+                  <p className="mt-3 text-xs leading-6 text-white/70">{area.description}</p>
                 </GlowCard>
               ))}
             </div>
