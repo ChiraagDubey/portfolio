@@ -16,7 +16,7 @@ export function Projects({ projects }: ProjectsProps) {
   const visibleProjects = isExpanded ? projects : projects.slice(0, 4);
 
   return (
-    <section id="projects" className="py-20 sm:py-24">
+    <section id="projects" className="py-16 sm:py-20">
       <Container>
         <SectionReveal>
           <SectionHeading

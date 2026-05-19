@@ -46,7 +46,7 @@ export function ProjectCard({ project, featured = false }: ProjectCardProps) {
     return (
       <div className={`flex h-full min-h-[300px] flex-col items-center justify-center rounded-3xl border border-dashed border-white/10 bg-white/[0.01] p-6 shadow-2xl backdrop-blur-2xl transition duration-300 hover:border-white/20 hover:bg-white/[0.03] ${featured ? "lg:col-span-2" : ""}`}>
         <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-white/[0.05] to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-        <h3 className="text-2xl font-semibold tracking-widest text-white/40 uppercase">{project.title}</h3>
+        <h3 className="text-xl font-semibold tracking-widest text-white/40 uppercase">{project.title}</h3>
         <p className="mt-3 text-sm font-medium tracking-wide text-white/30">{project.description}</p>
       </div>
     );
@@ -77,7 +77,7 @@ export function ProjectCard({ project, featured = false }: ProjectCardProps) {
         </div>
 
         <div className="mt-6">
-          <h3 className="text-2xl font-semibold tracking-tight text-white">{project.title}</h3>
+          <h3 className="text-xl font-semibold tracking-tight text-white">{project.title}</h3>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-white/70">{project.description}</p>
         </div>
 
